@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #020219;
+    color: #9f0909;
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    padding: 1.5rem 0;
+}
+
+.logo {
+    color: #fcfafa; 
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #fff1f1;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.featured {
+    padding: 3rem 0;
+}
+
+.featured h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff; 
+}
+
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.feature-item {
+    flex: 1;
+    min-width: 200px;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(199, 194, 194);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover img {
+    transform: scale(1.05);
+}
+
+.feature-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #f8f0f0; 
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgb(255, 254, 254);
+}
+
+
+.posts {
+    padding: 3rem 0;
+}
+
+.posts h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    color: #fff; 
+}
+
+.posts img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.posts article:hover img {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #f0ebeb;
+    color: #fff; 
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: underline;
+}
