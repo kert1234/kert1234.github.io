@@ -19,7 +19,7 @@
           ots.type = 'text/javascript';
           ots.setAttribute('data-domain-script', '6e7c13d6-08f7-4ac6-8e32-4ac3959ab9f8');
           document.head.appendChild(ots);
-<a href="  https://kert1234.github.io/recipes.html">Back</a>
+
         })();
   
         /* Arguments passed to this function:
@@ -2177,6 +2177,7 @@ Review this recipe</h2>
 </div>
 <div id="site-components" data-brand-sync="" data-brand-async="" data-core-sync="lazy-image,atg,user-auth,eu-disable-links,newsletter-unsubscribe" data-core-async="video,video-brightcove,video-jw,feed,gallery-test,add-recipe,breadcrumbs,product-detail,docked-sharebar,gallery-view-all,gallery-everything-in,dropdown,autofill-content-container,expander,outbrain,font-size-slider,newsletter-signup-modal,search-results-form,pinterest-pin,topic-sub-nav,embed-facebook,embed-instagram,embed-twitter,embed-pinterest,ecommerce-hub,content-loader,before-after,burst-text,bucket,progress-bar,amazon-price,image-zoom,glossary-header,recirculation,share-new,circular-countdown,navigation-test,filmstrip-slide,footer-test,topics-carousel,circular-carousel,category-page-videos,auto-advance,category-page-list-load-more,recipe-ratings,ugc-reviews,ugc-upload,recipe-reviews,recipe-reviews-sort,recipe-ingredients,recipe-instructions,recipe-nutrition,print-preview,faceted-search-filters,image-link,saga,saga-ribbon,slider,search-results,alert-banner,entity-summary,sticky-action-bar,faceted-search-widget,ugc-comments,project-ratings,ugc-photo-upload,button-pdf,buying-information,call-to-action,category-page-promo-entity,node-interactive-content,profile-management-page,tout-cards,tab-new,entity-full,quick-registration,poll-template,embedded-auth,manage-push-notifications,sweepstakes-entry-page,selectable,sweepstakes-description,sweepstakes-confirmation,feedback,entity-table-of-contents,line-clamp,search-by-ingredient,video-transcript,audio,embed-tiktok,user-profile-management,gallery-full-screen,gallery-right-rail-video,assistive-text,sitewide-alerts,table-of-contents,favorite,listicle,shop-go,init-auth,user-profile-registration,favorite-collections,updates-modal,embed-google-read-aloud-player" ></div><div class="partial modal zoom-image image-modal static  modal--hideHeading" aria-hidden="true"      id="dialog-366117d8-ae49-4ca6-8d37-207f10be87fa"   role="dialog"  aria-labelledby="overlays_zoom_image"
 >
+<a href="  https://kert1234.github.io/recipes.html">Back</a>
   <div class="dialog-wrap">
     <button class="close close--outside" type="button" data-a11y-dialog-hide data-tracking-zone="do-not-track" data-action="close-hamburger-menu">
       <span class="visually-hidden">Close this dialog window</span><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z"/></svg></button>
