@@ -1,0 +1,348 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2b85dae9;
+    color: #191eb1;
+    padding: 0 20px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark mode */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    color: rgb(43, 76, 143);
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+/* Header Titles and Navigation */
+header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3a40ae;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+body.dark-mode nav ul li a {
+    color: #ddd;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Sections */
+section {
+    margin: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #05143a;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: color 0.3s;
+}
+
+body.dark-mode h2 {
+    color: #ddd;
+}
+
+/* About Section */
+#about {
+    background-color: #1abc9c;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode #about {
+    background-color: #2a9d8f;
+    color: #e0e0e0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    border: 4px solid white;
+}
+
+body.dark-mode .profile-pic {
+    border-color: #555;
+}
+
+.profile p {
+    font-size: 18px;
+    max-width: 500px;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery-item {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    width: 200px;
+    height: 300px;
+}
+
+body.dark-mode .gallery-item {
+    background-color: #333;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the images fit the container without distortion */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Audio Playlist Section */
+#audio-playlist {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode #audio-playlist {
+    background-color: #333;
+    color: #ddd;
+}
+
+#audio-playlist h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+body.dark-mode #audio-playlist h3 {
+    color: #ddd;
+}
+
+.audio-player {
+    display: inline-block;
+    width: 100%;
+}
+
+.audio-player audio {
+    width: 80%;
+    margin: 15px 0;
+}
+
+.playlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.playlist li {
+    margin: 10px 0;
+    display: flex; /* Flexbox for card-like layout */
+    align-items: center;
+    background-color: #3a3a3a; /* Card background color */
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+body.dark-mode .playlist li {
+    background-color: #444; /* Dark mode background */
+}
+
+.playlist img {
+    width: 50px; /* Album art size */
+    height: 50px; /* Album art size */
+    border-radius: 5px;
+    margin-right: 10px; /* Space between image and text */
+}
+
+.playlist a {
+    text-decoration: none;
+    color: #007bff;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+body.dark-mode .playlist a {
+    color: #89CFF0; /* Lighter color for dark mode */
+}
+
+.playlist a:hover {
+    color: #0056b3;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .audio-player audio {
+        width: 100%;
+    }
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #555;
+}
+
+body.dark-mode .dark-mode-toggle {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+    background-color: #ddd;
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 2rem;
+    background-color: #000000;
+}
+
+body.dark-mode #contact {
+    background-color: #1f1f1f;
+}
+
+#contact h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #e4d4d4;
+}
+
+body.dark-mode #contact h2 {
+    color: #ddd;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #072577;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(224, 215, 215, 0.1);
+    transition: background-color 0.3s;
+}
+
+body.dark-mode form {
+    background-color: #333;
+}
+
+form label {
+    color: #d6d1d1;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode form input,
+body.dark-mode form textarea {
+    background-color: #444;
+    color: #ddd;
+    border-color: #555;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-bottom: 20px;
+    }
+
+    .gallery-item {
+        width: 120px;
+        height: 120px;
+    }
+
+    .playlist li {
+        flex-direction: column; /* Adjust layout for smaller screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+}
